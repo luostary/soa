@@ -1,0 +1,8 @@
+CREATE TABLE `activity` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `dt_create` datetime DEFAULT NULL,
+  `sessid` varchar(45) DEFAULT NULL,
+  `activity_id` int(11) DEFAULT NULL,
+  `url` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
